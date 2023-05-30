@@ -21,14 +21,15 @@ What are the the responsibilities of server.js?
 
 
 What are the responsibilities of the gamesRouter?
-  ??
+  ?? missed this one.
+
 
 What process does the the client (front-end) use to communicate with the server?
   The front end client uses React inputs from the form to create new games. These inputs are are then transfered to the GameService file which translates them into http requests. If the newGame data is sent (via a Post request) then the GameService function postGame can translate the newgame into json too.
 
 
 What optional second argument does the fetch method take? And what is it used for in this application? Hint: See Using Fetch on the MDN docs
-  In GameSErvice the fetch function can take in post or delete methods in the second argument. These can contain the information needed to either add a new game or delete one by it's id.
+  In GameService the fetch function can take in post or delete methods in the second argument. These can contain the information needed to either add a new game or delete one by it's id.
 
 
 Which of the games API routes does the front-end application consume (i.e. make requests to)?
